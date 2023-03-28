@@ -5,5 +5,5 @@
     <p>{{ item.description }}</p>
   </div>
   <p *ngIf="!cartItems.length">Your cart is empty.</p>
-  <button (click)="clear()">CLEAR CART</button>
+  <button type="button" class="btn btn-warning" (click)="clear()">CLEAR CART</button>
 </div>
